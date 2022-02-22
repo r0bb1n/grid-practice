@@ -13,7 +13,7 @@ body {
 .grid__container {
     display: grid;
     grid-gap: 24px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(6, 1fr);
     width: 85%;
     height: 100vh;
@@ -21,75 +21,67 @@ body {
 
 .grid__element1 {
     background-color: #007F5F;
-    width: 448px;
-    height: 195px;
-    overflow: hidden;
     grid-column: 1 / 2;
-    grid-row: 1 / 2;
+    grid-row: 1 / 3;
 }
 
 .grid__element2 {
     background-color: #2B9348;
-    width: 448px;
-    height: 195px;
     grid-column: 1 / 2;
+    grid-row: 3 / 5;
 }
 
 .grid__element3 {
     background-color: #80B918;
-    width: 448px;
-    height: 414px;
-    grid-column: 2 / 3;
-    grid-row: 1 / 3;
+    grid-column: 2 / 4;
+    grid-row: 1 / 5;
 }
 
 .grid__element4 {
     background-color: #FFFF3F;
-    width: 448px;
-    height: 122px;
-    grid-column: 3 / 4;
+    grid-column: 4 / 6;
     grid-row: 1 / 2;
 }
 
 .grid__element5 {
     background-color: #FFFF3F;
-    width: 448px;
-    height: 122px;
+    grid-column: 4 / 6;
+    grid-row: 2 / 4;
 }
 
 .grid__element6 {
     background-color: #FFFF3F;
-    width: 448px;
-    height: 122px;
+    grid-column: 4 / 6;
+    grid-row: 4 / 5;
 }
 
 
 .grid__element7 {
     background-color: #55A630;
-    width: 448px;
-    height: 268px;
+    grid-column: 1 / 2;
+    grid-row: 5 / 7;
 }
 
 .grid__element8 {
     background-color: #BFD200;
-    width: 212px;
-    height: 122px;
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
 }
 
 .grid__element9 {
     background-color: #BFD200;
-    width: 212px;
-    height: 122px;
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
 }
 
 .grid__element10 {
     background-color: #D4D700;
-    width: 448px;
-    height: 268px;
+    grid-column: 3 / 5;
+    grid-row: 5 / 7;
 }
 
 .grid__element11 {
     background-color: #007F5F;
-    width: 212px;
-    height: 268px;
+    grid-column: 5 / 6;
+    grid-row: 5 / 7;
 }
